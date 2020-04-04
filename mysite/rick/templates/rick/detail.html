@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Rick and Morty</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <!-- Brand/logo -->
+  <a class="navbar-brand" href="{% url 'rick:index' %}">RICK AND MORTY</a>
+  <form class="form-inline" action="{% url 'rick:search' %}" method="get" value="{{request.GET.q}}">
+    <input class="form-control mr-sm-2" type="text" placeholder="Search" name="name">
+    <button class="btn btn-success" type="submit">Search</button>
+  </form>
+</nav>
+
+
+<br><br>
+<div class="container-fluid">
+<table class="table table-dark table-hover">
+    <thead>
+    </thead>
+    <tbody>
+    <tr>
+        <td>Name</td>
+        <td>{{ name }}</td>
+    </tr>
+    <tr>
+        <td>Airdate</td>
+        <td>{{ air_date }}</td>
+    </tr>
+    <tr>
+        <td>Episode</td>
+        <td>{{ episode }}</td>
+    </tr>
+    </tbody>
+  </table>
+
+    <table class="table table-dark table-hover">
+    <thead>
+      <tr>
+        <th>Characters</th>
+      </tr>
+    </thead>
+    <tbody>
+    {% for item in personajes %}
+      <tr>
+          <td><a href="{% url 'rick:character' item.id %}">{{ item.name }}</a></td>
+      </tr>
+    {% endfor %}
+    </tbody>
+  </table>
+
+
+</div>
+
+</body>
+</html>
