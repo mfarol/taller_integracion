@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d3e7784b-c7b2-4380-9b17-3100b6813989" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/mysite.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/asgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rick/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rick/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rick/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rick/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rick/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rick/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rick/templates/rick/character.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rick/templates/rick/detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rick/templates/rick/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rick/templates/rick/location.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rick/templates/rick/results.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rick/templates/rick/search.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rick/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rick/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rick/views.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1a7t6h9eqnfeQD0MzLy4nLa4ADa" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d3e7784b-c7b2-4380-9b17-3100b6813989" name="Default Changelist" comment="" />
+      <created>1586098287213</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586098287213</updated>
+      <workItem from="1586098290264" duration="2108000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="221" y="66" key="SettingsEditor" timestamp="1586099087398">
+      <screen x="0" y="23" width="1440" height="808" />
+    </state>
+    <state x="221" y="66" key="SettingsEditor/0.23.1440.808@0.23.1440.808" timestamp="1586099087398" />
+    <state x="397" y="259" key="com.intellij.ide.util.TipDialog" timestamp="1586098290629">
+      <screen x="0" y="23" width="1440" height="808" />
+    </state>
+    <state x="397" y="259" key="com.intellij.ide.util.TipDialog/0.23.1440.808@0.23.1440.808" timestamp="1586098290629" />
+  </component>
+</project>
