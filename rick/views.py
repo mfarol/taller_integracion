@@ -10,17 +10,17 @@ from .models import Question, Choice
 
 
 def index(request):
-    direccion = 'https://rickandmortyapi.com/api/episode/'
+    direccion = 'https://integracion-rick-morty-api.herokuapp.com/api/episode/'
     response = requests.get(url=direccion)
     information = response.json()
-    direccion2 = 'https://rickandmortyapi.com/api/episode?page=2'
+    direccion2 = 'https://integracion-rick-morty-api.herokuapp.com/api/episode?page=2'
     response2 = requests.get(url=direccion2)
     information['results2'] = response2.json()
     return render(request, 'rick/index.html', information)
 
 
 def detail(request, item_id):
-    direccion = 'https://rickandmortyapi.com/api/episode/' + str(item_id)
+    direccion = 'https://integracion-rick-morty-api.herokuapp.com/api/episode/' + str(item_id)
     response = requests.get(url=direccion)
     information = response.json()
     personajes = []
@@ -35,7 +35,7 @@ def detail(request, item_id):
 
 
 def character(request, character_id):
-    direccion = 'https://rickandmortyapi.com/api/character/' + str(character_id)
+    direccion = 'https://integracion-rick-morty-api.herokuapp.com/api/character/' + str(character_id)
     response = requests.get(url=direccion)
     information = response.json()
     information['character_id'] = character_id
@@ -56,7 +56,7 @@ def character(request, character_id):
 
 
 def location(request, location_id):
-    direccion = 'https://rickandmortyapi.com/api/location/' + str(location_id)
+    direccion = 'https://integracion-rick-morty-api.herokuapp.com/api/location/' + str(location_id)
     response = requests.get(url=direccion)
     information = response.json()
     information['location_id'] = location_id
@@ -74,10 +74,10 @@ def search(request):
     entry = str(request.GET["name"]).lower()
     information = {}
 
-    direccion1 = 'https://rickandmortyapi.com/api/episode/'
+    direccion1 = 'https://integracion-rick-morty-api.herokuapp.com/api/episode/'
     response1 = requests.get(url=direccion1)
     information1 = response1.json()
-    direccion2 = 'https://rickandmortyapi.com/api/episode?page=2'
+    direccion2 = 'https://integracion-rick-morty-api.herokuapp.com/api/episode?page=2'
     response2 = requests.get(url=direccion2)
     information2 = response2.json()
     episodios = []
@@ -89,7 +89,7 @@ def search(request):
             episodios.append(episodio)
     information['episodios'] = episodios
 
-    direccion3 = 'https://rickandmortyapi.com/api/character/'
+    direccion3 = 'https://integracion-rick-morty-api.herokuapp.com/api/character/'
     response3 = requests.get(url=direccion3)
     information3 = response3.json()
     personajes = []
@@ -107,7 +107,7 @@ def search(request):
         vacio = info['info']['next']
     information['personajes'] = personajes
 
-    direccion4 = 'https://rickandmortyapi.com/api/location/'
+    direccion4 = 'https://integracion-rick-morty-api.herokuapp.com/api/location/'
     response4 = requests.get(url=direccion4)
     information4 = response4.json()
     lugares = []
